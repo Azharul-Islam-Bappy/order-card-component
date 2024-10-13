@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="c-Container">
+      
+      <input id="dsply" type="text" placeholder="0">
+      
+      <button class="buttons" id="b1">AC</button>
+      
+      <button class="buttons" id="b2"><img   src="icon.png" width="20px"></button>
+      
+      <button class="buttons group" id="b3"onclick="chooseOperator('/')">/</button>
+      
+      <button class="buttons group" id="b4" onclick="chooseOperator('*')">*</button>
+      
+      <button class="buttons" id="b5"  onclick="appendNum(7)">7</button>
+      
+      <button class="buttons" id="b6" onclick="appendNum(8)">8</button>
+      
+      <button class="buttons" id="b7" onclick="appendNum(9)">9</button>
+      
+      <button class="buttons group" id="b8" onclick="chooseOperator('-')">-</button>
+      
+      <button class="buttons" id="b9" onclick="appendNum(4)">4</button>
+      
+      <button class="buttons" id="b10" onclick="appendNum(5)">5</button>
+      
+      <button class="buttons" id="b11" onclick="appendNum(6)">6</button>
+      
+      <button class="buttons group" id="b12" onclick="chooseOperator('+')">+</button>
+      
+      <button class="buttons" id="b13" onclick="appendNum(1)">1</button>
+      
+      <button class="buttons" id="b14" onclick="appendNum(2)">2</button>
+      
+      <button class="buttons" id="b15" onclick="appendNum(3)">3</button>
+      
+      <button class="buttons" id="b16" onclick="appendNum(0)">0</button>
+      
+      <button class="buttons" id="b17" onclick="appendNum('.')" >.</button>
+      
+      <button class="buttons" id="b18" >=</button>
+      
+    </div>
+    
+    <script src="c2.js"></script>
+  </body>
+</html>

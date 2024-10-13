@@ -1,0 +1,25 @@
+/* Navigation bar styles */
+.navContainer{
+  margin: 2px solid;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: black;
+  }
+}
+.navigations{
+  padding: 90%;
+}
+.items{
+  text-decoration: none;
+  font-size: 18.8px;
+  font-family: Sans-Serif;
+  color: floralwhite;
+  font-weight: 505;
+}
+#item1{
+  margin-inline-end: 40px;
+}
+#item2{
+  margin-inline-start: 40px;
+}

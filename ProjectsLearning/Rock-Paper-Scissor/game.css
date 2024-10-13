@@ -1,0 +1,31 @@
+
+
+h1#header{
+  text-align: center;
+}
+section#button-container{
+  height: 7vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-column-gap: 10px;
+  margin-block: 2.5rem;
+}
+#button-1,#button-2,#button-3{
+  grid-row: 1/3;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-radius: 0.8em;
+  background-color: #a8f3ff;
+  border: 0.5px solid lightblue;
+  box-shadow: 1px 2px 5px lightblue;
+}
+button.auto-play{
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  background-color: #fffdec;
+  font-weight: 350;
+  border-radius: 0.5em;
+  border: 0.5px solid lightblue;
+  box-shadow: 1px 2px 5px lightblue;
+}

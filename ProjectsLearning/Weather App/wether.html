@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="weather.css">
+    <link rel="stylesheet" type="text/css" href="boilerplateCODE.css">
+    <title>Weather Pro</title>
+    
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">WeatherX☁️</h1>
+      <input type="text" id="search-box" placeholder="Enter City">
+      <button id="search-weather">search</button>
+    </header>
+    <main class="main-content">
+      <div class="temperature box">
+        <span class="holder" id="temperature">0°C</span>
+        <!-- <img src="assets/"  class="img" id="temp-img-id"> -->
+        <span>🌡️️ Temperature </span>
+      </div>
+      <div class="windspeed box">
+        <span class="holder" id="windspeed">0 Km/h</span>
+        <img src="assets/IMG_wind.jpg" class="img" id="windspeed-img-id">
+        <span>Wind Speed</span>
+      </div>
+      <div class="visibility box">
+        <span class="holder" id="visibility">0 Km</span>
+       <!--  <img src="#" class="img" id="humidity-img-id"> -->
+        <span>Visibility</span>
+      </div>
+      
+    </main>
+    
+    <script src="weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+
+html{
+  padding: 20px;
+  padding-block-end: 45px;
+}
+
+.quiz_section {
+  margin: 20px;
+  padding: 15px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: floralwhite;
+  font-size: 18px;
+}
+input{
+  display: block;
+  margin-block: 10px;
+}
+.submit-button{
+  font-size: 17.5px;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+#feedbackOne, #feedbackTwo, #feedbackThree{
+  border: solid 2px gray;
+  padding: 8px;
+}
+
+p{
+  line-height: 30px;
+}

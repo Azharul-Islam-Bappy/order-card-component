@@ -1,0 +1,53 @@
+/* Styles for navigation bar*/
+@media only screen and (min-width: 350px) {
+  body{
+    background-color: #FAF9F6;
+  }
+  header{
+    display: flex;
+    height: 10vh;
+    min-height: 10vh;
+    max-height: 10vh;
+    justify-content: space-between;
+    align-content: center;
+    margin-block-end: 15%;
+    /* position: sticky;
+    top: 0px;
+    z-index: 1; */
+  }
+  header img#logo{
+    width: 80px;
+    max-height: 100px;
+    min-width: 80px;
+    max-width: 100px;
+    border-radius: 50%;
+    display: inline;
+  }
+  nav.nav{
+    display: flex;
+    width: 70%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  nav a.nav-items{
+    /* position: relative;
+    height: 100%;
+    margin: auto; */
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    
+  }
+  nav a.nav-items:hover{
+    background-color: #FFD700;
+    font-weight: 600;
+  }
+  nav a.nav-items:active{
+    background-color: #FFD700;
+    font-weight: 600;
+    padding: 0.9rem;
+  }
+}

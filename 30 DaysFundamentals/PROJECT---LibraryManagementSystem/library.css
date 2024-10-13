@@ -1,0 +1,67 @@
+header figcaption{
+  font-size: 30px;
+  padding: 10px;
+  font-family: Trebuchet MS;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+#holder{
+  margin: 15% 1% 0% 1%;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  font-weight: 500;
+}
+.search-books{
+  width: 50%;
+  margin-top: 5%;
+  margin-right: 2%;
+  padding-block: 1%;
+  padding-left: 1.5%;
+  border: 2px solid #888888;
+  border-radius: 1rem;
+  text-decoration: none;
+  color:  black;
+  font-size: 1.1rem;
+}
+.book-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr );
+  grid-template-rows: repeat(2, 1fr);
+  margin: 8%;
+  padding: 4%;
+  border-radius: 2.5%;
+  box-shadow: 3px 3px 5px ;
+}
+
+.book-img{
+  width: 95%;
+  margin: 10px;
+  display: inline-block;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+p.book-title{
+  grid-column: 3/5;
+  display: inline-block;
+  margin-block-start: 20px;
+}
+.book-author{
+  grid-row: ;
+  grid-column: 3/5;
+  display: inline-block;
+  margin-block-end: 20px;
+}
+p.book-title,.book-author{
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  margin: 2%;
+  padding: 2%;
+  font-weight: bold;
+}

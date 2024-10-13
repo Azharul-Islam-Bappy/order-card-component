@@ -1,0 +1,74 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+div.calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 410px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+div{
+  width: 99.5%;
+}
+
+.keys__row{
+  padding-inline-start: 20px;
+}
+
+.keys__row input{
+  border: 1px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 8px;
+  font-size: 24px;
+  background-color: #96c3f2;
+  color: white;
+}
+
+/* div.calculator__output--container{
+  height: 40px;
+} */
+
+input.calculator__output{
+  border: 2px;
+  width: 405px;
+  border-start-start-radius: 10px; 
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: #36404a;
+  color: gray;
+  font-size: 45px;
+  padding-block-start: 55px;
+  padding-block-end: 55px;
+  padding-inline-end: 25px;
+  text-align: right;
+  margin-block-end: 45px;
+}
+
+#end_row{
+  direction: flex;
+  flex-direction: row;
+  margin-block-end: 25px;
+}
+
+#enter{
+  flex-grow: 1;
+  width: 170px;
+  border-radius: 40px;
+  font-size: 40px;
+}
+
+input.operator{
+  background-color: #ff91ba;
+}
+input.del_operator{
+  background-color: #fa9507;
+}

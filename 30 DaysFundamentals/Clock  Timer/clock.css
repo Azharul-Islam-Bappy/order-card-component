@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.1s ease;
+}
+header{
+  display: flex;
+  justify-content: end;
+}
+span#theme{
+  margin-inline: 2%;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  margin-top: 2%;
+  
+}
+img.mode{
+  margin-inline: 1%;
+}
+div.clock-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  max-height: 30vh;
+  margin-top: 40%;
+  margin-inline: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0, 0.5);
+  border-radius: 15px;
+}
+div.time{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px lightblue;
+  padding: 15px;
+  border-radius: 15px;
+  margin-inline: 10px;
+  text-align: center;
+  width: 22%;
+  background-color: rgb(240,248,255);
+}
+.time .time-text{
+  font-size: 10px;
+  letter-spacing: 0.04rem;
+  margin-top: 15%; 
+}
+.colon{
+  font-size: 1.8rem;
+  font-weight: bold;
+  
+}
+.time #hours, .time #minutes, .time #seconds{
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+}
+
+body.dark-mode{
+  background-color: #24292D;
+  color: white;
+}
+body.dark-mode img.mode{
+  border-radius: 28px;
+}
+body.dark-mode .time{
+  background-color: rgb(36,48,55);
+  
+}
+div.clock-container-toggle{
+  box-shadow: 0 2px 10px #8aa9e6;
+  background-color: rgb(36,48,55);
+}
+
+
+@media only screen and (min-width: 780px) {
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+  }
+  div.clock-container{
+    min-width: 450px;
+    max-width: 500px;
+    min-height: 320px;
+    max-height: 320px;
+    position: relative;
+    margin: auto;
+  }
+  span#theme{
+    font-size: 3.5rem;
+    line-height: 6rem;
+  }
+  img.mode{
+    width: 8.5rem;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    
+  }
+  div.clock-container{
+    max-width: 450px;
+    max-height: 320px;
+    position: relative;
+    margin: auto;
+  }
+  span#theme{
+    font-size: 3.5rem;
+    line-height: 6rem;
+  }
+  img.mode{
+    width: 8.5rem;
+  }
+}
