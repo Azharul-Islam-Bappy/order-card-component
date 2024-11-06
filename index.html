@@ -8,30 +8,49 @@
       
   </script> 
   <title>Frontend Mentor | Order summary card</title>
+  <style>
+    /* experimention
+    
+    @media only screen and (max-width: 768px){
+      body{
+        background-image: url('images/pattern-background-mobile.svg');
+        background-position: contain;
+        
+      }
+    }
+    @media only screen and (min-width: 769px){
+      body{
+        background-image: url('images/pattern-background-desktop.svg');
+        background-position: fill;
+        background-repeat: no-repeat;
+      }
+    } */
+  </style>
 
 
 </head>
-<body>
+<body class="flex justify-center items-center w-screen h-screen  bg-[hsla(225,100%,94%,1)]">
   
-  
-  
-  
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">AIB</a>.
+  <div class="card w-96 bg-[#fff] text-center rounded-3xl">
+    <img class="rounded-t-3xl" src="images/illustration-hero.svg">
+    <h1 class="text-center text-2xl font-extrabold text-[hsl(223, 47%, 23%)] mt-10 mb-[1.2rem]">Order Summary</h1>
+    
+    <p class="text-slate-500 p-1 mx-1.5 text-pretty mb-[15px] text-xl">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    
+    <div class="w-[90%] py-[1rem] mx-[5%] mb-[1.4rem] flex justify-around items-center bg-[hsla(225,100%,98%,1)] overflow-hidden rounded-3xl">
+      
+      <img src="images/icon-music.svg">
+      <div class="flex flex-col gap-1 ">
+        <h4 class="text-2xl">Annual Plan</h4>
+        <span class="text-base">$59.99/year</span>
+      </div>
+      <a class="text-blue-800  underline underline-offset-4 font-medium text-xl" href="#">Change</a>
+      
+    </div>
+    <button class="outline-0 border-0 rounded-2xl w-[90%] py-[15px] mx-[5%] mb-[1.4rem] text-[#fff] bg-[hsla(245,75%,52%,1)] text-xl font-medium">Proceed to Payment</button>
+    <a href="#" class="mb-[1.6rem] py-[15px] text-xl text-[hsla(224,23%,55%,1)] font-medium">Cancel Order</a>
+    
   </div>
+  
 </body>
 </html>
