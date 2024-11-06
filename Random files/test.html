@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .image-container {
+          position: relative;
+          border: 2px solid #dee2e6;
+          border-radius: 8px;
+          overflow: hidden;
+      }
+      
+      .image-container img {
+          width: 100%;
+          border-radius: 8px;
+      }
+      
+      .image-text {
+          position: absolute;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.6);
+          color: #ffffff;
+          width: 100%;
+          text-align: center;
+          padding: 0.5rem;
+          font-size: 1rem;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+      }
+    </style>
+</head>
+<body>
+
+<div class="container py-5">
+    <div class="row">
+        <!-- First Column -->
+        <div class="col-md-6">
+            <div class="image-container mb-3">
+                <img src="image1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="image-container mb-3">
+                <img src="image2.jpg" alt="Image 2" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="col-md-6">
+            <div class="image-container mb-3">
+                <img src="image3.jpg" alt="Image 3" class="img-fluid">
+                <p class="image-text">Image 3 Description</p>
+            </div>
+            <div class="image-container mb-3">
+                <img src="image4.jpg" alt="Image 4" class="img-fluid">
+                <p class="image-text">Image 4 Description</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+---
+
+CSS (styles.css)
+
+body {
+    background-color: #f8f9fa;
+}
+
+.image-container {
+    position: relative;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+---
+
+JavaScript (script.js)
+
+For this setup, there's no specific interactivity that requires JavaScript based on the layout description. But if you want to add any future JavaScript functionality, you can use this script.js file as the place for any DOM manipulation or event handling in plain JavaScript.
+
+// script.js
+// You can add future JavaScript code here if needed for interactivity.
+
+
+---
+
+With this setup:
+
+The HTML provides a structured layout using Bootstrap’s grid system.
+
+The CSS enhances the layout, adds styling to the images and text overlay, and avoids using any Bootstrap JavaScript (or jQuery) features.
+
+
+Let me know if you need additional tweaks or functionality added!
+

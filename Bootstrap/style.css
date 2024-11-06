@@ -1,0 +1,74 @@
+
+/* Basic styling */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --btn-color: #ffb110;
+  --blue-color: #9b82ff;
+}
+
+.navbar-brand{
+  background-image: url('assets/Ellipse 7.png');
+  background-position: center;
+}
+
+.navbar-toggler{
+  outline: none; !important
+  border: 1.2px solid  grey;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.rounded-pill{
+  background-color: var(--btn-color);
+}
+
+h1.display-3{
+  background-position: left;
+  font-weight: 450;
+  line-height: 60px;
+  border-radius: 15px;
+  & button{
+    width: 100px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--blue-color);
+    border-radius: 15px;
+  }
+  span{
+    color: var(--blue-color);
+  }
+}
+.img-width{
+  width: 90%;
+  margin-inline: 5%;
+}
+
+#section-1{
+  background-image: url('assets/Ellipse 8.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#category{
+  box-shadow: 0px 0px 3px #646464;
+  outline: none;
+  border-radius: 10px;
+  & a{
+    font-size: 1.08rem;
+  }
+  & .active{
+    color: var(--blue-color);
+  }
+}
+.card{
+  text-align: center; !important
+}
+#chng-color{
+  background-color: #bbacf6;
+}
